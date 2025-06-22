@@ -13,6 +13,11 @@ void foo(int a) {
     cout << "Summa ravna = " << a << endl;
 
 }
+void cycle() {
+    for (int i = 0; i < 10; i++) {
+        cout << "Hello" << endl;
+    }
+}
 void foo1() {
     cout << "Ya looshara" << endl;
 }
@@ -28,6 +33,10 @@ int main()
   
     int q = multiplex(4, 5);
     cout << q;
+
+    cycle();
+    
+
     
     foo1(); 
     foo2();
