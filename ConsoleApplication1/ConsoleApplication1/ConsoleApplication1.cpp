@@ -16,6 +16,9 @@ void foo(int a) {
 void foo1() {
     cout << "Ya looshara" << endl;
 }
+void foo2() {
+    cout << "Ya looshara v kvadrate" << endl;
+}
 
 int main()
 {
@@ -26,7 +29,8 @@ int main()
     int q = multiplex(4, 5);
     cout << q;
     
-    foo1();
+    foo1(); 
+    foo2();
 }
 
 
