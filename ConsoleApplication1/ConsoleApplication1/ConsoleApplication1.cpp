@@ -25,6 +25,9 @@ void foo2() {
     cout << "Ya looshara v kvadrate" << endl;
 }
 
+void time_1() {
+    cout << "vremya sosat" << endl;
+}
 int main()
 {
     int a = sum(4, 5);
@@ -35,6 +38,7 @@ int main()
     cout << q;
 
     cycle();
+    time_1();
     
 
     
