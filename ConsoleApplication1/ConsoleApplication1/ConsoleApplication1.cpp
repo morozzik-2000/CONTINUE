@@ -8,7 +8,7 @@ int sum(int a, int b) {
 
 int multiplex(int c, int e) {
     return c * e;
-  
+}
 void foo(int a) {
     cout << "Summa ravna = " << a << endl;
 
