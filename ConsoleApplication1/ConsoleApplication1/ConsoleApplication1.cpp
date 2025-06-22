@@ -28,6 +28,11 @@ void foo2() {
 void time_1() {
     cout << "vremya sosat" << endl;
 }
+
+void time_2() {
+    cout << "vremya sosat huy" << endl;
+}
+
 int main()
 {
     int a = sum(4, 5);
@@ -39,6 +44,7 @@ int main()
 
     cycle();
     time_1();
+    time_2();
     
 
     
